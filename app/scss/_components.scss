@@ -1,0 +1,7 @@
+.bannerArea{position: relative;}
+.bannerContent{background: $light-gray;position: absolute;max-width: 445px; padding: 40px; z-index: 9; @include border-radius(10px);}
+
+.content{position: relative;}
+
+
+.icon-content{padding: 15px 0 20px;}

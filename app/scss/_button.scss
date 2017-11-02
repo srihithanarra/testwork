@@ -1,0 +1,11 @@
+// Button 
+.btn{font-size: 14px; line-height: 44px; padding: 0 20px;border: none;}
+.btn-primary,.btn-primary:active,.btn-primary.focus,.btn-primary:focus,.btn-primary.active,.btn-primary:active{background: $brilliant-red;border: none;}
+.btn-primary:hover{background: $brilliant-red;}
+
+//link
+
+.link{font-size: 14px; line-height: 18px;font-weight: $semi-bold; color: $dark-gray;}
+.link:hover{color: $dark-gray;}
+
+
