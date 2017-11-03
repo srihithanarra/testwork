@@ -1,5 +1,6 @@
 // typography
 body {color: $text-color;font-size: $base-font-size;font-family: $base-font-family;font-weight: $base-font-weight;line-height: 1.6;background: $light-gray;}
+ul, li{margin: 0;padding: 0;list-style: none;}
 .container-fluid{background: #fff}
 .articleTitle,.heading, .subHeading, .h3,.h4{ font-family: $base-font-family; color: $text-color;}
 .articleTitle { font-size: 11px; line-height: 14px; font-weight: $medium; text-transform: uppercase; color:$medium-gray;margin: 10px 0;}
@@ -10,12 +11,15 @@ body {color: $text-color;font-size: $base-font-size;font-family: $base-font-fami
 
 
 .posTopLeft{top: 20%; left: 8%;}
+.posTopLeft-20{top: 20%; left: -20%;}
+.posTopRight{top: 20%; right: -28%;}
 .posTop{top: 24%;}
 
 
 .pdLeftRight-55{padding-left:55px;padding-right:55px;}
 .pdBtm-40{padding-bottom: 40px;}
 .pdBtm-90{padding-bottom: 90px;}
+.pdTop-70{padding-top: 70px;}
 
 .mrgBtm-20{margin-bottom: 20px;}
 

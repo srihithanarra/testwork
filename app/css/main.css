@@ -8,6 +8,11 @@ body {
   line-height: 1.6;
   background: #F9F9F7; }
 
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
 .container-fluid {
   background: #fff; }
 
@@ -52,6 +57,14 @@ body {
   top: 20%;
   left: 8%; }
 
+.posTopLeft-20 {
+  top: 20%;
+  left: -20%; }
+
+.posTopRight {
+  top: 20%;
+  right: -28%; }
+
 .posTop {
   top: 24%; }
 
@@ -64,6 +77,9 @@ body {
 
 .pdBtm-90 {
   padding-bottom: 90px; }
+
+.pdTop-70 {
+  padding-top: 70px; }
 
 .mrgBtm-20 {
   margin-bottom: 20px; }
@@ -100,7 +116,7 @@ body {
   position: relative; }
 
 .bannerContent {
-  background: #F9F9F7;
+  background: #fff;
   position: absolute;
   max-width: 445px;
   padding: 40px;
@@ -109,6 +125,12 @@ body {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   border-radius: 10px; }
+
+.mediumBox {
+  max-width: 455px; }
+
+.mediumBox2 {
+  max-width: 490px; }
 
 .content {
   position: relative; }

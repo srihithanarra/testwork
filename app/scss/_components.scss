@@ -1,7 +1,14 @@
 .bannerArea{position: relative;}
-.bannerContent{background: $light-gray;position: absolute;max-width: 445px; padding: 40px; z-index: 9; @include border-radius(10px);}
+.bannerContent{background: $white;position: absolute;max-width: 445px; padding: 40px; z-index: 9; @include border-radius(10px);}
 
+.mediumBox{max-width: 455px;}
+.mediumBox2{max-width: 490px;}
 .content{position: relative;}
 
 
 .icon-content{padding: 15px 0 20px;}
+
+
+
+//List css
+
