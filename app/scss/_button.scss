@@ -2,6 +2,8 @@
 .btn{font-size: 14px; line-height: 44px; padding: 0 20px;border: none;}
 .btn-primary,.btn-primary:active,.btn-primary.focus,.btn-primary:focus,.btn-primary.active,.btn-primary:active{background: $brilliant-red;border: none;}
 .btn-primary:hover{background: $brilliant-red;}
+.btn-secondary,.btn-secondary:active,.btn-secondary.focus,.btn-secondary:focus,.btn-secondary.active,.btn-secondary:active{background: $dark-bluish-gray;border: none; color: $white;}
+.btn-secondary:hover{background: $dark-bluish-gray;color: $white;}
 
 //link
 
