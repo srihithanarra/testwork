@@ -29,6 +29,16 @@
     padding: 15px 0 20px;
 }
 
+//Navbar
+.navbar-nav {
+    a {
+        color:#423E37;
+    }
+    &:hover {
+        color:#423E37;
+    }
+}
+
 
 
 //List css
@@ -44,7 +54,43 @@
 
 
 //instagram image block
-
 .imageBlock{
     li{display: inline-block;margin: 0 25px 30px 0;}
+}
+
+//Footer
+.footer {
+    background:#252525 url("../images/footerBg.jpg") repeat-x;
+    width:100%;
+    height:100%;
+    color:#BFBFBF;
+    font-size:16px;
+    p {
+        padding-top:20px;
+    }
+    ul {
+        padding:0px 50px;
+
+        li {
+            line-height: 40px;
+        }
+    }
+
+    .social {
+        padding:40px 50px;
+        ul {
+                padding:0px;
+            li{
+              width:22px;
+              float:left;
+              margin:5px 12px;
+               &:first-child {
+                width:11px;
+                margin-left:0px              
+            }
+
+            }
+
+        }
+    }
 }
