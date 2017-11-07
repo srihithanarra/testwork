@@ -123,8 +123,10 @@ img {
 @media screen and ($width-name: $break-medium) {
     
     .heading{font-size: 22px; line-height: 36px;}  
-    .subHeading{font-size: 20px; line-height: 28px;}  
+    .subHeading{font-size: 20px; line-height: 28px;} 
+    .articleTitle{font-size: 10px; line-height: 13px; letter-spacing: 2px;}
     .h3{font-size: 18px; line-height: 28px;}  
+    .contentTopPd{padding-top: 20px;}
 }
 
 
