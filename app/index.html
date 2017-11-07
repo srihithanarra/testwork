@@ -15,8 +15,30 @@
 </head>
 
 <body>
-    <div class="container-fluid" style="max-width: 1440px; margin: 0 auto">
-        <header style="height: 77px;"> </header>
+    <div class="container-fluid" style="max-width: 1440px; margin: 0 auto">        
+         <header role="banner" class="navbar borderBottom1px">
+            <div class="col-md-24 col-sm-offset-0">
+              <div class="navbar-header">
+               <div class="desktopLeft pdTop-20"><a href="#"><img src="images/DL_Logo.png"></a></div>
+                <button data-toggle="collapse-side" data-target=".side-collapse" data-target-2=".side-collapse-container" type="button" class="navbar-toggle pull-right "><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+              </div>
+              <div id="mySidenav" class="side-collapse in">
+                <nav role="navigation" class="navbar-collapse">
+                  <div class="moveLeft pdTop-20 pdLeft-5"><a href="#"><img src="images/DL_Logo.png"></a></div>
+                  <a href="javascript:void(0)" class="closebtn">&times;</a> 
+                  <ul class="nav navbar-nav moveRight"> 
+
+                    <li><a href="#Home">Shop</a></li>
+                    <li><a href="#users">Hire Discern Designers</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">FAQ’s</a></li>
+                    <li><a href="#">I’m already a user. <strong>Login</strong></a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </header>
 
         <!--row one-->
         <div class="row rowBtmPd">
@@ -155,14 +177,44 @@
             </div>
 
         </div>
+
+       <!--Find inspiration with us starts here-->
+       <footer class="footer padFooter">
+         <div class="row">
+            <div class="col-md-24">
+                <div class="col-md-8">
+                  <div class="footerLogo"><img src="../images/footerLogo.png"></div>
+                  <p>Discern Living is your one-stop destination for the best in inspirational interior design and home decor products. Here is a platform from which you can discover and shop for every design need you have or didn’t even realise you required.</p>
+                </div>
+                <div class="col-md-5">
+                  <ul>
+                     <li>About Us</li>
+                     <li>Media Room </li>
+                     <li>FAQ’s </li>
+                     <li>Contact Us</li>
+                  </ul>
+                </div>
+                <div class="col-md-5"><ul>
+                     <li>Order Tracking</li>
+                     <li>Returns & Exchanges</li>
+                     <li>Privacy Policy </li>
+                     <li>Terms & Conditions</li>
+                  </ul></div>
+                <div class="col-md-6 social articleTitle">SOCIAL MEDIA
+                    <ul>
+                      <li><a href="#"><img src="images/facebook.png" /></a></li>
+                      <li><a href="#"><img src="images/instagram.png" /></a></li>
+                      <li><a href="#"><img src="images/twitter.png" /></a></li>
+                      <li><a href="#"><img src="images/linkedin.png" /></a></li>
+                      <li><a href="#"><img src="images/pinterest.png" /></a></li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+       </footer>
+
         <!--Find inspiration with us ends here-->
-
-
-
-
-
-
-
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
         <!--build:js js/main.min.js -->
         <script src="js/lib/a-library.js"></script>
         <script src="js/lib/another-library.js"></script>

@@ -2,7 +2,9 @@
 html {
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
+    height: 100%;
 }
+
 body {
     color: $text-color;
     font-size: $base-font-size;
@@ -10,6 +12,7 @@ body {
     font-weight: $base-font-weight;
     line-height: 28px;
     background: $light-gray;
+    height: 100%;
 }
 
 ul,
@@ -92,8 +95,13 @@ img {
 
 
 //padding margin css
-.rowBtmPd{padding-bottom: 90px;}
-.contentTopPd{padding-top: 170px;}
+.rowBtmPd {
+    padding-bottom: 90px;
+}
+
+.contentTopPd {
+    padding-top: 170px;
+}
 
 .pdBtm-40 {
     padding-bottom: 40px;
@@ -117,17 +125,152 @@ img {
 
 
 
-
-
-
 @media screen and ($width-name: $break-medium) {
-    
-    .heading{font-size: 22px; line-height: 36px;}  
-    .subHeading{font-size: 20px; line-height: 28px;} 
-    .articleTitle{font-size: 10px; line-height: 13px; letter-spacing: 2px;}
-    .h3{font-size: 18px; line-height: 28px;}  
-    .contentTopPd{padding-top: 20px;}
+
+    .heading {
+        font-size: 22px;
+        line-height: 36px;
+    }
+    .subHeading {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .articleTitle {
+        font-size: 10px;
+        line-height: 13px;
+        letter-spacing: 2px;
+    }
+    .h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .contentTopPd {
+        padding-top: 20px;
+    }
 }
 
 
+//Nav
+.closebtn {
+    display: none;
+}
 
+.moveLeft {
+    display: none;
+}
+
+.desktopLeft {
+    float: left;
+    padding-left: 40px;
+}
+
+@media screen and (max-width: 767px) {
+    .side-collapse-container {
+        width: 100%;
+        position: relative;
+        left: 0;
+        transition: left .4s;
+        &.out {
+            left: 200px;
+        }
+    }
+    .side-collapse {
+        top: 0px;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        position: fixed;
+        overflow: hidden;
+        transition: width .4s;
+        z-index: 999;
+        &.in {
+            width: 0;
+        }
+    }
+    .moveLeft {
+        display: block;
+    }
+    .desktopLeft {
+        padding-left: 0px;
+    }
+
+    .navbar-collapse {
+        background: $white;
+        height: 100%;
+        position: relative;
+    }
+    .navbar-toggle .icon-bar {
+        background: $color_chicago_approx;
+    }
+    .moveLeft,
+    .moveRight {
+        float: none !important;
+    }
+
+    .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 50px;
+        margin-left: 50px;
+        display: block;
+        color: $color_dove_gray_approx;
+        a:foucs {
+            color: $color_dove_gray_approx;
+        }
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    .padFooter {
+        padding: 70px 20px !important;
+    }
+    .footer {
+        ul {
+            padding: 0px 0px !important;
+            li {
+                line-height: 40px;
+            }
+        }
+        .social {
+            padding: 0px 10px !important;
+            ;
+            ul {
+                padding: 0px;
+                li {
+                    width: 22px;
+                    float: left;
+                    margin: 5px 12px;
+                    &:first-child {
+                        width: 11px;
+                        margin-left: 0px
+                    }
+
+                }
+
+            }
+        }
+    }
+}
+
+
+.padFooter {
+    padding: 80px 50px;
+}
+
+.borderBottom1px {
+    border-bottom: solid 1px #f7f7f7;
+}
+
+.moveLeft {
+    float: left;
+}
+
+.moveRight {
+    float: right;
+}
+
+.bgWhite {
+    background: $white;
+}
